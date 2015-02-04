@@ -2,15 +2,6 @@
 # All rights reserved.
 
 ###-begin-{pkgname}-completion-###
-### credits to npm, this file is coming directly from isaacs/npm repo
-#
-# Just testing for now. (trying to learn this cool stuff)
-#
-# npm command completion script
-#
-# Installation: {completer} completion >> ~/.bashrc  (or ~/.zshrc)
-#
-
 COMP_WORDBREAKS=${COMP_WORDBREAKS/=/}
 COMP_WORDBREAKS=${COMP_WORDBREAKS/@/}
 export COMP_WORDBREAKS
