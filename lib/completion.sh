@@ -2,10 +2,6 @@
 # All rights reserved.
 
 ###-begin-{pkgname}-completion-###
-COMP_WORDBREAKS=${COMP_WORDBREAKS/=/}
-COMP_WORDBREAKS=${COMP_WORDBREAKS/@/}
-export COMP_WORDBREAKS
-
 if complete &>/dev/null; then
   _{pkgname}_completion () {
     local si="$IFS"
